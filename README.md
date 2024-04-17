@@ -32,3 +32,26 @@ I have enough resources, making you a coffee!
 - The coffee machine is initialized with default ingredient levels: 400ml of water, 540ml of milk, 120g of coffee beans, 9 disposable cups, and $550 of money.
 - Coffee recipes and prices are predefined in the `Coffee` enum.
 - The program runs until the user chooses to exit.
+-----------------------------------------------------------------------------------
+
+The following knowledge and concepts were utilized in writing this program:
+
+Object-Oriented Programming (OOP): The program employs classes and objects to model the coffee machine and coffee types.
+
+Enums: Usage of enums Coffee and State to represent coffee types and program states respectively.
+
+Control Structures (if-else, when): The program uses when and if-else constructs to manage states and perform various actions based on user input.
+
+Input/Output Handling: Interaction with the user occurs through console input/output, utilizing the Scanner class.
+
+Error Handling and Exceptions: The program handles potential errors and exceptions, such as insufficient resources to brew coffee.
+
+Loops (do-while): The program employs a do-while loop to execute the main interaction process with the user until the user chooses to exit the program.
+
+Methods and Functions: Various program actions (such as purchasing coffee, adding ingredients, displaying remaining resources, etc.) are organized into separate methods to enhance code readability and modularity.
+
+Object Initialization: Usage of the class constructor CoffeeMachine to initialize initial ingredient and money values in the coffee machine.
+
+Working with Arrays and Collections: The program utilizes the Coffee.values() array to access different coffee types, as well as the mutableListOf collection to store and manage the current state of the coffee machine.
+
+These knowledge areas and concepts facilitated the development of a functional and efficient program for managing a coffee machine.
