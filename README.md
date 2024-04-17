@@ -53,5 +53,3 @@ Methods and Functions: Various program actions (such as purchasing coffee, addin
 Object Initialization: Usage of the class constructor CoffeeMachine to initialize initial ingredient and money values in the coffee machine.
 
 Working with Arrays and Collections: The program utilizes the Coffee.values() array to access different coffee types, as well as the mutableListOf collection to store and manage the current state of the coffee machine.
-
-These knowledge areas and concepts facilitated the development of a functional and efficient program for managing a coffee machine.
