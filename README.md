@@ -27,9 +27,6 @@ What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
 1
 I have enough resources, making you a coffee!
 
-vbnet
-Copy code
-
 ## Notes
 
 - The coffee machine is initialized with default ingredient levels: 400ml of water, 540ml of milk, 120g of coffee beans, 9 disposable cups, and $550 of money.
