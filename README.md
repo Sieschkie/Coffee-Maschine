@@ -1,6 +1,7 @@
 # Coffee Machine
 
-This simple Kotlin program simulates a coffee machine where users can buy different types of coffee, refill ingredients, take money, and check the remaining resources.
+This simple program simulates a coffee machine where users can buy different types of coffee, refill ingredients, take money, and check the remaining resources.
+2 Implementation options: in the programming language Kotlin and JavaScript.
 
 ## Features
 
@@ -34,7 +35,7 @@ I have enough resources, making you a coffee!
 - The program runs until the user chooses to exit.
 -----------------------------------------------------------------------------------
 
-The following knowledge and concepts were utilized in writing this program:
+The following knowledge and concepts in Kotlin were utilized in writing this program:
 
 Object-Oriented Programming (OOP): The program employs classes and objects to model the coffee machine and coffee types.
 
@@ -53,3 +54,19 @@ Methods and Functions: Various program actions (such as purchasing coffee, addin
 Object Initialization: Usage of the class constructor CoffeeMachine to initialize initial ingredient and money values in the coffee machine.
 
 Working with Arrays and Collections: The program utilizes the Coffee.values() array to access different coffee types, as well as the mutableListOf collection to store and manage the current state of the coffee machine.
+
+--------------------------------------------------
+
+This program demonstrates the use of the following knowledge and concepts in JavaScript:
+
+JavaScript Basics: The entire program is written in JavaScript, utilizing language constructs such as variables, functions, loops, and conditional statements.
+
+Arrays and Objects: Arrays and objects are used to organize data. For instance, the COFFEE_TYPES array contains objects representing different types of coffee.
+
+JavaScript Modules: The sync-input module is used to synchronously read input from the console.
+
+Loops and Conditional Statements: The program uses loops to repeatedly display the main menu and conditional statements to handle different user inputs and actions.
+
+Functions: Functions are employed to encapsulate reusable blocks of code, such as buying, filling, and displaying the status of the coffee machine.
+
+User Input Handling: The program prompts the user for input and handles various user actions such as buying coffee, filling resources, taking money, and displaying the remaining resources.
